@@ -1,10 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Black",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mul/models/item/black.json",
+          "src/main/resources/assets/mul/models/block/black.json",
+          "src/main/resources/assets/mul/blockstates/black.json",
+          "src/main/java/net/pedro/mul/block/BlackBlock.java",
+          "src/main/resources/data/mul/loot_tables/blocks/black.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.mul.black": "Black"
+    }
   },
   "foldersRoot": {
     "name": "~",

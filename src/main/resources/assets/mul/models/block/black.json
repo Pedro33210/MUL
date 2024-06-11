@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mul:block/black",
+    "up": "mul:block/black",
+    "north": "mul:block/black",
+    "east": "mul:block/black",
+    "south": "mul:block/black",
+    "west": "mul:block/black",
+    "particle": "mul:block/black"
+  },
+  "render_type": "solid"
+}

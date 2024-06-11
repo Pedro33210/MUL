@@ -3,6 +3,9 @@ package net.pedro.mul;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.pedro.mul.init.MulModItems;
+import net.pedro.mul.init.MulModBlocks;
+
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.NetworkEvent;
@@ -36,6 +39,10 @@ public class MulMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MulModBlocks.REGISTRY.register(bus);
+
+		MulModItems.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
